@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container ul{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    list-style: none;
+
+}
+.container ul li{
+    flex-grow: 1;
+}
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-right: 1px solid white;
+    
+}
+
+.row1{
+    margin-top: 30px;
+    display: flex;
+}
+.row1 p{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+.row-2{
+    margin-top: 30px;
+    display: flex;
+}
+.row-2 p{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+.row-3{
+    margin-top: 30px;
+    display: flex;
+}
+.row-3 p{
+    border: 1px solid red;
+    padding: 20px; 
+}
+.row-3 p:nth-child(1){
+    flex-basis: 25%;
+}
+.row-3 p:nth-child(2){
+    flex-basis: 50%;
+}
+.row-3 p:nth-child(3){
+    flex-basis: 25%;
+}
+
+
+
+.row-4{
+    margin-top: 20px;
+    display: flex;
+
+}
+.row-4 p{
+    border: 1px solid red;
+    padding: 20px;
+}
+.row-4 p :nth-child(1){
+    flex-basis: 70%;
+}
+.row-4 p :nth-child(2){
+    flex-basis: 30%;
+}
+
+
+.center-div{
+    height: 50vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.center-itrm{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.center-itrm h1{
+    color: white;
+}
